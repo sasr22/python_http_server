@@ -20,3 +20,15 @@ site_alias | Array of alias domains to listen to.
 document_root | Primary site folder.
 static_root | JSON of {"NAME": "PATH_TO_FOLDER"} (Can support multiple folders)
 
+The JSON configuration file needs to be in `sites` folder to be parsed.
+
+Each site needs its one JSON file.
+
+Here is the file structure:
+
+    project_folder/
+    ├─ site/
+    │  ├─ site1.json
+    │  ├─ site2.json
+    ├─ main.py
+    ├─ settings.json
