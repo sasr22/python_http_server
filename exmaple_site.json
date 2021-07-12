@@ -1,0 +1,8 @@
+{
+    "IP_TO_LISTEN:PORT": {
+        "site_name": "SITE_DOMAIN",
+        "site_alias": ["ALIAS_DOMAIN1", "ALIAS_DOMAIN1"],
+        "document_root": "PATH_TO_DOCUMENT_ROOT",
+        "static_root": {"static_folder1": "PATH_TO_STATIC_ROOT1", "static_folder2": "PATH_TO_STATIC_ROOT2"}
+    }
+}
